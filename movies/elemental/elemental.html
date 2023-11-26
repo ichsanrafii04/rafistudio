@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="elemental.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Elemental</title>
+  </head>
+  <body>
+    <nav>
+      <div class="bars">
+        <a href="#hamburger" id="bars"><i class="fa-solid fa-bars"></i></a>
+      </div>
+
+      <span class="title"
+        ><h2 style="color: white">Rafi</h2>
+        <h2 style="color: crimson">Studio</h2></span
+      >
+      <span class="menu" id="menus">
+        <ul>
+          <li class="film">
+            <a href="#movies" onclick="movies()"
+              ><i class="fa-solid fa-video"></i> Movies
+              <i class="fa-solid fa-caret-down" id="down"></i
+            ></a>
+          </li>
+          <li style="padding-bottom: 10px">
+            <a href="#genre" onclick="genre()" id="genres"
+              ><i class="fa-regular fa-folder-open"></i> Genre</a
+            >
+          </li>
+          <li>
+            <a href="#year" onclick="year()" id="years"
+              ><i class="fa-regular fa-folder-open"></i> Year</a
+            >
+          </li>
+        </ul>
+      </span>
+      <span class="search"
+        ><input type="text" id="search" placeholder="Search..." required />
+        <label for="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </label>
+      </span>
+      <div class="movie-menu" id="movie">
+        <ul>
+          <li>
+            <a href="#"><i class="fa-solid fa-caret-right"></i> Most Watched</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-caret-right"></i> Harry Potter</a>
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-caret-right"></i> Marvel Universe</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="genre" id="genre">
+      <h1>Genre</h1>
+      <div class="wrapper">
+        <a href="#horror">
+          <div class="gen">Horror</div>
+        </a>
+        <a href="#comedy">
+          <div class="gen">Comedy</div>
+        </a>
+        <a href="#adventure">
+          <div class="gen">Adventure</div>
+        </a>
+        <a href="#action">
+          <div class="gen">Action</div>
+        </a>
+        <a href="#drama">
+          <div class="gen">Drama</div>
+        </a>
+        <a href="#romatic">
+          <div class="gen">Romantic</div>
+        </a>
+        <a href="#family">
+          <div class="gen">Family</div>
+        </a>
+        <a href="#fantasy">
+          <div class="gen">Fantasy</div>
+        </a>
+        <a href="#thriller">
+          <div class="gen">Thriller</div>
+        </a>
+        <a href="#anime">
+          <div class="gen">Anime</div>
+        </a>
+        <a href="#documentary">
+          <div class="gen">Documentary</div>
+        </a>
+        <a href="#mistery">
+          <div class="gen">Mistery</div>
+        </a>
+      </div>
+    </div>
+    <div class="year" id="year">
+      <h1>Year</h1>
+      <div class="wrapper">
+        <a href="#2023">
+          <div class="yea">2023</div>
+        </a>
+        <a href="#2022">
+          <div class="yea">2022</div>
+        </a>
+        <a href="#2021">
+          <div class="yea">2021</div>
+        </a>
+        <a href="#2020">
+          <div class="yea">2020</div>
+        </a>
+        <a href="#2019">
+          <div class="yea">2019</div>
+        </a>
+        <a href="#2018">
+          <div class="yea">2018</div>
+        </a>
+        <a href="#2017">
+          <div class="yea">2017</div>
+        </a>
+        <a href="#2016">
+          <div class="yea">2016</div>
+        </a>
+        <a href="#2015">
+          <div class="yea">2015</div>
+        </a>
+        <a href="#2014">
+          <div class="yea">2014</div>
+        </a>
+        <a href="#2013">
+          <div class="yea">2013</div>
+        </a>
+        <a href="#2012">
+          <div class="yea">2012</div>
+        </a>
+      </div>
+    </div>
+    <div class="wrapper_iklan" id="iklan">
+      <div class="commercial">
+        <div class="attention">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem
+            fugiat dolor minima fugit perferendis possimus mollitia nisi velit,
+            sapiente, reprehenderit sint! Mollitia reiciendis excepturi
+            asperiores quibusdam ullam? Ratione ad ab ipsam blanditiis porro
+            reprehenderit aperiam sint molestias reiciendis quibusdam voluptas
+            nisi expedita hic, rem accusantium!
+          </p>
+        </div>
+        <img src="pictures/iklan.jpg" class="iklan1" alt="" />
+        <img src="pictures/iklan.jpg" class="iklan2" alt="" />
+        <img src="pictures/iklan.jpg" class="iklan3" alt="" />
+        <img src="pictures/iklan.jpg" class="iklan4" alt="" />
+      </div>
+    </div>
+    <div class="feature" id="feature">
+      <div class="wrap_peringatan">
+        <i class="fa-solid fa-bullhorn"></i> Lorem ipsum dolor, sit amet
+        consectetur adipisicing elit. Dolores magnam temporibus voluptatibus
+        blanditiis, accusantium odit! Voluptates iusto magnam deleniti, ullam
+        quam optio laudantium rem quaerat exercitationem at atque dicta
+        quibusdam ad ipsam! Reiciendis aut nesciunt tempore voluptatum ipsum.
+        Omnis, quasi.
+      </div>
+    </div>
+    <main id="contents">
+      <video controls src="WhatsApp Video 2023-11-22 at 09.23.38.mp4">
+        tes
+      </video>
+    </main>
+    <div class="iklanlagi" id="iklan2">
+      <div>
+        <img src="/pictures/iklan.jpg" alt="" />
+      </div>
+      <div>
+        <img src="/pictures/iklan.jpg" alt="" />
+      </div>
+      <div>
+        <img src="/pictures/iklan.jpg" alt="" />
+      </div>
+    </div>
+    <div class="wrapulasan" id="ulasan">
+      <div class="ulasan">
+        <div style="grid-area: poster" class="poster">
+          <img src="/pictures/elemental.jpeg" alt="" />
+        </div>
+        <div style="grid-area: judul" class="judul">
+          <h1>Elemental (2023)</h1>
+          <h2>Disney Pixar</h2>
+          <p>19 July 2023 America 100 Min</p>
+        </div>
+        <div style="grid-area: rating" class="rating">
+          <h4 style="grid-area: rate">10</h4>
+          <div class="kanan">
+            <div style="grid-area: star" class="star">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </div>
+            <div style="grid-area: votes">
+              <i class="fa-solid fa-circle-user"></i> 200 Votes
+            </div>
+          </div>
+        </div>
+        <div style="grid-area: jenre" class="jenre">
+          <p>Fantasy</p>
+          <p>Advanture</p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div>@copyright 2023</div>
+      <ul>
+        <li>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="elemental.js"></script>
+  </body>
+</html>
